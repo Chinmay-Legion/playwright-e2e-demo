@@ -19,6 +19,7 @@ exports.CheckOutPage = class CheckOutPage {
         this.viewOrderDetailsLink = page.locator('a',{hasText:'Click here for order details.'})
     }
 
+    
     async selectCountry(countryName){
         const CountryOption = this.country.filter({has:this.page.locator('option')}).selectOption({ label: countryName });;
         await this.country.click()
