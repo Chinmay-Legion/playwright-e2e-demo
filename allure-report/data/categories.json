@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "locator.click: Timeout 20000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('a').filter({ hasText: 'Nokia Lumia 1020' })\n============================================================",
+      "children" : [ {
+        "name" : "Search different products and subscribe newsletter @smoke @search",
+        "uid" : "89a4961bee7661e2",
+        "parentUid" : "6becc29986b77824bd3e6c7c515393bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1676537166814,
+          "stop" : 1676537197798,
+          "duration" : 30984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "6becc29986b77824bd3e6c7c515393bd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

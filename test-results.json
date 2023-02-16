@@ -1,0 +1,286 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/playwright-review-demo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/playwright-review-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "D:/playwright-review-demo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/playwright-review-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "D:/playwright-review-demo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/playwright-review-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "D:/playwright-review-demo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "MobileChrome",
+        "name": "MobileChrome",
+        "testDir": "D:/playwright-review-demo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 240000
+      }
+    ],
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "D:\\playwright-review-demo\\node_modules\\allure-playwright\\dist\\index.js",
+        null
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "D:\\playwright-review-demo\\playwright.config.js",
+    "rootDir": "D:/playwright-review-demo/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.30.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "registeration.spec.js",
+      "file": "registeration.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Register service @smoke @register",
+          "file": "registeration.spec.js",
+          "line": 9,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Register User",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 18088,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-16T08:46:06.668Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bfc0afa9e42a3cfddad5-4cf9222e4a9e22a491dd",
+              "file": "registeration.spec.js",
+              "line": 15,
+              "column": 5
+            },
+            {
+              "title": "User Negative Login Test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 10078,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-16T08:46:27.867Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bfc0afa9e42a3cfddad5-2ecbcf55cb9b9f45b3cb",
+              "file": "registeration.spec.js",
+              "line": 37,
+              "column": 5
+            },
+            {
+              "title": "User Login Test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 13350,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-16T08:46:37.947Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bfc0afa9e42a3cfddad5-ef0da0e4eb84c0f84ea6",
+              "file": "registeration.spec.js",
+              "line": 51,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "search.spec.js",
+      "file": "search.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Search service",
+          "file": "search.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Search different products and subscribe newsletter @smoke @search",
+              "ok": false,
+              "tags": [
+                "smoke",
+                "search"
+              ],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 26780,
+                      "error": {
+                        "message": "locator.click: Timeout 20000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('a').filter({ hasText: 'Nokia Lumia 1020' })\n============================================================",
+                        "stack": "locator.click: Timeout 20000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('a').filter({ hasText: 'Nokia Lumia 1020' })\n============================================================\n    at D:\\playwright-review-demo\\tests\\search.spec.js:17:52"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\playwright-review-demo\\tests\\search.spec.js",
+                            "column": 52,
+                            "line": 17
+                          },
+                          "message": "locator.click: Timeout 20000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('a').filter({ hasText: 'Nokia Lumia 1020' })\n============================================================\n\n\u001b[90m   at \u001b[39msearch.spec.js:17\n\n\u001b[0m \u001b[90m 15 |\u001b[39m         \u001b[36mconst\u001b[39m productDetailsPage  \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mProductDetailsPage\u001b[39m (page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m         \u001b[36mawait\u001b[39m homePage\u001b[33m.\u001b[39msearch(\u001b[32m'Nokia Lumiaaaaaa'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m (searchResultPage\u001b[33m.\u001b[39mproductTitleLumia)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/lumia/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m expect(productDetailsPage\u001b[33m.\u001b[39mproductPriceLumia)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m         \u001b[36mawait\u001b[39m (productDetailsPage\u001b[33m.\u001b[39mproductQuantity)\u001b[33m.\u001b[39mfill(\u001b[32m\"3\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at D:\\playwright-review-demo\\tests\\search.spec.js:17:52\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-02-16T08:46:06.812Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\playwright-review-demo\\tests\\search.spec.js",
+                        "column": 52,
+                        "line": 17
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9e6ea2b6d72fedbaa223-b754735bf0d681645ffc",
+              "file": "search.spec.js",
+              "line": 12,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

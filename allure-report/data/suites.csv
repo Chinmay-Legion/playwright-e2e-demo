@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Feb 16 14:16:06 IST 2023","Thu Feb 16 14:16:37 IST 2023","30984","chromium","search.spec.js","Search service","","","Search different products and subscribe newsletter @smoke @search",""
+"passed","Thu Feb 16 14:16:06 IST 2023","Thu Feb 16 14:16:27 IST 2023","21198","chromium","registeration.spec.js","Register service @smoke @register","","","Register User",""
+"passed","Thu Feb 16 14:16:27 IST 2023","Thu Feb 16 14:16:37 IST 2023","10070","chromium","registeration.spec.js","Register service @smoke @register","","","User Negative Login Test",""
+"passed","Thu Feb 16 14:16:37 IST 2023","Thu Feb 16 14:16:51 IST 2023","13320","chromium","registeration.spec.js","Register service @smoke @register","","","User Login Test",""

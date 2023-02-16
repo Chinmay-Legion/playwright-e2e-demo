@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "registeration.spec.js",
+      "children" : [ {
+        "name" : "Register service @smoke @register",
+        "children" : [ {
+          "name" : "Register User",
+          "uid" : "a9e648a1781ed982",
+          "parentUid" : "e60e4e76954c6146af0ecf8e9121c46b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676537166670,
+            "stop" : 1676537187868,
+            "duration" : 21198
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "User Negative Login Test",
+          "uid" : "c93245119973e8f2",
+          "parentUid" : "e60e4e76954c6146af0ecf8e9121c46b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676537187877,
+            "stop" : 1676537197947,
+            "duration" : 10070
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "User Login Test",
+          "uid" : "1bc5b43465f032a6",
+          "parentUid" : "e60e4e76954c6146af0ecf8e9121c46b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676537197980,
+            "stop" : 1676537211300,
+            "duration" : 13320
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chromium" ]
+        } ],
+        "uid" : "e60e4e76954c6146af0ecf8e9121c46b"
+      } ],
+      "uid" : "1385a5ce54c342234f252094794b6f6e"
+    }, {
+      "name" : "search.spec.js",
+      "children" : [ {
+        "name" : "Search service",
+        "children" : [ {
+          "name" : "Search different products and subscribe newsletter @smoke @search",
+          "uid" : "89a4961bee7661e2",
+          "parentUid" : "98e953d9321cb2a8c43945acc28bd38a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1676537166814,
+            "stop" : 1676537197798,
+            "duration" : 30984
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ "chromium" ]
+        } ],
+        "uid" : "98e953d9321cb2a8c43945acc28bd38a"
+      } ],
+      "uid" : "db835f58d6ebb2de3a99136ac3016a35"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "playwright-review-demo",
+  "version": "1.0.0",
+  "description": "Playwright demo for review",
+  "main": "index.js",
+  "scripts": {
+    "testSuite": "npx playwright test",
+    "chromeSuite:head": "npx playwright test --project=chromium --headed",
+    "mobileSuite:head": "npx playwright test --project=MobileChrome --headed",
+    "smoke:chrome:head": "npx playwright test --project=chromium --headed --grep @smoke",
+    "e2e:chrome:head": "npx playwright test --project=chromium --headed --grep @e2e",
+    "e2e:mobile:head": "npx playwright test --project=MobileChrome --headed --grep @e2e",
+    "search:chrome:head": "npx playwright test --project=chromium --headed --grep @search",
+    "register:chrome:head": "npx playwright test --project=chromium --headed --grep @register",
+    "open_allure": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "keywords": [
+    "playwright",
+    "demo",
+    "review"
+  ],
+  "author": "Chinmay Singh",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.30.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@playwright/test": "^1.30.0",
+    "allure-playwright": "^2.0.0-beta.26"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "62cb49eef28f0ca3d23e369ab49f5e37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9e648a1781ed982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676537166670,
+        "stop" : 1676537187868,
+        "duration" : 21198
+      }
+    } ]
+  },
+  "e9b0563539b76d9e141809c3329bf489" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bc5b43465f032a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676537197980,
+        "stop" : 1676537211300,
+        "duration" : 13320
+      }
+    } ]
+  },
+  "54a4c0989ef8db8ab299f69da6e1a9b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c93245119973e8f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676537187877,
+        "stop" : 1676537197947,
+        "duration" : 10070
+      }
+    } ]
+  },
+  "8d66ba95f453c4494455d44203356477" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89a4961bee7661e2",
+      "status" : "failed",
+      "statusDetails" : "locator.click: Timeout 20000ms exceeded.\n=========================== logs ===========================\nwaiting for locator('a').filter({ hasText: 'Nokia Lumia 1020' })\n============================================================",
+      "time" : {
+        "start" : 1676537166814,
+        "stop" : 1676537197798,
+        "duration" : 30984
+      }
+    } ]
+  }
+}
