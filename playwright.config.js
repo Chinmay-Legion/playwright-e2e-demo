@@ -30,7 +30,7 @@ module.exports = defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: process.env.CI ? [["junit", {
+  reporter: process.env.CI ? [["list", {
     outputFile: "results.xml"
   }]] :[['html'],['json', {  outputFile: 'test-results.json' }],["allure-playwright"],["list"]],
 
@@ -61,6 +61,10 @@ module.exports = defineConfig({
         slowMo: 0.7*1000,
         },
       },
+    },
+    {
+      name: 'customChromium',
+      use: { ...devices['Desktop Chrome'] },
     },
 
     {

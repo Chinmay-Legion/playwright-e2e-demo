@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npx playwright install",
-    "test": "npx playwright test",
+    "test": "npx playwright test  --project=customChromium",
     "chromeSuite:head": "npx playwright test --project=chromium --headed",
     "mobileSuite:head": "npx playwright test --project=MobileChrome --headed",
     "smoke:chrome:head": "npx playwright test --project=chromium --headed --grep @smoke",
