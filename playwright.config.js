@@ -30,13 +30,16 @@ module.exports = defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['html'],['json', {  outputFile: 'test-results.json' }],["allure-playwright"],["list"]],
+  reporter: process.env.CI ? [["junit", {
+    outputFile: "results.xml"
+  }]] :[['html'],['json', {  outputFile: 'test-results.json' }],["allure-playwright"],["list"]],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     launchOptions: {
       slowMo: 0.5*1000,
     },
+    headless: process.env.CI ? true : false,
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 20 * 1000,
     navigationTimeout: 40 * 1000,

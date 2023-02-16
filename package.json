@@ -4,7 +4,8 @@
   "description": "Playwright demo for review",
   "main": "index.js",
   "scripts": {
-    "testSuite": "npx playwright test",
+    "postinstall": "npx playwright install",
+    "test": "npx playwright test",
     "chromeSuite:head": "npx playwright test --project=chromium --headed",
     "mobileSuite:head": "npx playwright test --project=MobileChrome --headed",
     "smoke:chrome:head": "npx playwright test --project=chromium --headed --grep @smoke",
