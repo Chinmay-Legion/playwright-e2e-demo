@@ -12,12 +12,12 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
+        "outputDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
+        "testDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -25,12 +25,12 @@
         "timeout": 240000
       },
       {
-        "outputDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
+        "outputDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "customChromium",
         "name": "customChromium",
-        "testDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
+        "testDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -38,12 +38,12 @@
         "timeout": 240000
       },
       {
-        "outputDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
+        "outputDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "firefox",
         "name": "firefox",
-        "testDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
+        "testDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -51,12 +51,12 @@
         "timeout": 240000
       },
       {
-        "outputDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
+        "outputDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "webkit",
         "name": "webkit",
-        "testDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
+        "testDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -64,12 +64,12 @@
         "timeout": 240000
       },
       {
-        "outputDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
+        "outputDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "MobileChrome",
         "name": "MobileChrome",
-        "testDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
+        "testDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -89,7 +89,7 @@
         }
       ],
       [
-        "C:\\Users\\Chinmay.Singh\\Documents\\GitHub\\playwright-e2e-demo\\node_modules\\allure-playwright\\dist\\index.js",
+        "c:\\Users\\Chinmay.Singh\\Documents\\GitHub\\playwright-e2e-demo\\node_modules\\allure-playwright\\dist\\index.js",
         null
       ],
       [
@@ -101,8 +101,8 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "C:\\Users\\Chinmay.Singh\\Documents\\GitHub\\playwright-e2e-demo\\playwright.config.js",
-    "rootDir": "C:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
+    "configFile": "c:\\Users\\Chinmay.Singh\\Documents\\GitHub\\playwright-e2e-demo\\playwright.config.js",
+    "rootDir": "c:/Users/Chinmay.Singh/Documents/GitHub/playwright-e2e-demo/tests",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -112,25 +112,22 @@
   },
   "suites": [
     {
-      "title": "search.spec.js",
-      "file": "search.spec.js",
+      "title": "registeration.spec.js",
+      "file": "registeration.spec.js",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Search service",
-          "file": "search.spec.js",
-          "line": 6,
-          "column": 6,
+          "title": "Register service @smoke @register",
+          "file": "registeration.spec.js",
+          "line": 11,
+          "column": 15,
           "specs": [
             {
-              "title": "Search for products and subscribe to newsletter @smoke @search",
+              "title": "Register User",
               "ok": true,
-              "tags": [
-                "smoke",
-                "search"
-              ],
+              "tags": [],
               "tests": [
                 {
                   "timeout": 240000,
@@ -142,43 +139,135 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 19963,
+                      "duration": 17969,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
                       "steps": [
                         {
-                          "title": "Search for \"Nokia Lumia\"",
-                          "duration": 5218
+                          "title": "Click on \"Register\" link",
+                          "duration": 2975
                         },
                         {
-                          "title": "Enter prodcut quantity(3)",
-                          "duration": 2184
+                          "title": "Fill required user details",
+                          "duration": 4689
                         },
                         {
-                          "title": "Search for \"Apple MacBook Pro 13-inch\"",
-                          "duration": 4357
+                          "title": "Set user login details",
+                          "duration": 2221
                         },
                         {
-                          "title": "Enter prodcut quantity(5)",
-                          "duration": 2259
-                        },
-                        {
-                          "title": "subcribe to newsletter",
-                          "duration": 2352
+                          "title": "Assert: user registeration Completed",
+                          "duration": 2248
                         }
                       ],
-                      "startTime": "2023-02-19T10:46:17.497Z",
+                      "startTime": "2023-02-19T16:12:00.800Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "9e6ea2b6d72fedbaa223-fa2bc6299a9fb20b8b31",
-              "file": "search.spec.js",
-              "line": 12,
+              "id": "bfc0afa9e42a3cfddad5-4cf9222e4a9e22a491dd",
+              "file": "registeration.spec.js",
+              "line": 19,
+              "column": 5
+            },
+            {
+              "title": "User Negative Login Test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7633,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Click on \"Login\" link",
+                          "duration": 1968
+                        },
+                        {
+                          "title": "Fill out wrong user details",
+                          "duration": 1562
+                        },
+                        {
+                          "title": "Assert: Login was unsuccessful",
+                          "duration": 2041
+                        }
+                      ],
+                      "startTime": "2023-02-19T16:12:21.315Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bfc0afa9e42a3cfddad5-2ecbcf55cb9b9f45b3cb",
+              "file": "registeration.spec.js",
+              "line": 57,
+              "column": 5
+            },
+            {
+              "title": "User Login Test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 240000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 12576,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Click on \"Login\" link",
+                          "duration": 2034
+                        },
+                        {
+                          "title": "Fill out correct user details",
+                          "duration": 3196
+                        },
+                        {
+                          "title": "Go to \"My Account\" page",
+                          "duration": 2093
+                        },
+                        {
+                          "title": "Assert: No orders are initiated",
+                          "duration": 2880
+                        }
+                      ],
+                      "startTime": "2023-02-19T16:12:28.951Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bfc0afa9e42a3cfddad5-ef0da0e4eb84c0f84ea6",
+              "file": "registeration.spec.js",
+              "line": 82,
               "column": 5
             }
           ]
