@@ -264,5 +264,13 @@ vusers.session_length:
   p99: ......................................................................... 81660.6
 ```
 
+## Reporters
+
+### Allure
+
+![Allure](https://user-images.githubusercontent.com/84897709/220187844-c3f3f283-0125-4338-b2a2-6807100608df.gif)
+
+
+
 
 
