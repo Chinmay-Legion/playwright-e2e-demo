@@ -8,7 +8,7 @@ This framwork also uses [artillery-engine-playwright](https://github.com/artille
 
 We are using [demo.nopcommerce.com](https://demo.nopcommerce.com/) as the Application Under Test.
 
-## Installation ⚙️
+## Installation 🛠️
 
 Install the dependencies and devDependencies to run the test.
 
@@ -115,18 +115,19 @@ We are currently using Circle CI for the integration of our Playwright framework
 * ♻️&nbsp;&nbsp;&nbsp; Use Playwright for load testing (full access to [`page` API](https://playwright.dev/docs/api/class-page))
 * 🏎&nbsp;&nbsp;&nbsp;Create new load testing scripts 10x faster with [`playwright codegen`](https://playwright.dev/docs/codegen-intro)
 
-Install Artillery and this engine:
+🛠️Install Artillery and this engine:
 
 ```sh
 npm install -g artillery artillery-engine-playwright
 ```
 
-Run for searchPage flow
+🚀Run for SearchAndCart flow and generate HTML report
 
 
 ```sh
-artillery run hello-world.yml
+npm run SNC-load
 ```
+
 
 
 
