@@ -1,0 +1,21 @@
+config:
+  target: https://demo.nopcommerce.com/
+  # Enable the Playwright engine:
+  phases:
+    - duration: 5
+      arrivalRate: 2
+      name: Warm up
+    - duration: 10
+      arrivalRate: 2
+      rampTo: 4
+      name: Ramp Up
+    - duration: 5
+      arrivalCount: 5
+      name: Cool down
+  engines:
+    playwright: {}
+  processor: "./flows.js"
+scenarios:
+  - engine: playwright
+    flowFunction: "SearchAndCartFlow"
+    flow: []
