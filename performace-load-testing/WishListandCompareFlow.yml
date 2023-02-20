@@ -1,0 +1,22 @@
+config:
+  target: https://demo.nopcommerce.com/
+  # Enable the Playwright engine:
+  phases:
+    - duration: 5
+      arrivalRate: 1
+      name: Warm up
+    - duration: 10
+      arrivalRate: 2
+      rampTo: 4
+      name: Ramp Up
+    - duration: 5
+      arrivalCount: 5
+      name: Cool down
+  engines:
+    playwright:
+      defaultTimeout: 60000
+  processor: "./performance-load-testing/flows.jsflows.js"
+scenarios:
+  - engine: playwright
+    flowFunction: "WishListandCompareFlow"
+    flow: []
