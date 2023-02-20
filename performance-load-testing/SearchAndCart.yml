@@ -3,7 +3,7 @@ config:
   # Enable the Playwright engine:
   phases:
     - duration: 5
-      arrivalRate: 1
+      arrivalRate: 2
       name: Warm up
     - duration: 10
       arrivalRate: 2
@@ -13,10 +13,9 @@ config:
       arrivalCount: 5
       name: Cool down
   engines:
-    playwright:
-      defaultTimeout: 60000
-  processor: "./performance-load-testing/flows.jsflows.js"
+    playwright: {}
+  processor: "flows.js"
 scenarios:
   - engine: playwright
-    flowFunction: "WishListandCompareFlow"
+    flowFunction: "SearchAndCartFlow"
     flow: []

@@ -13,9 +13,10 @@ config:
       arrivalCount: 5
       name: Cool down
   engines:
-    playwright: {}
-  processor: "./flows.js"
+    playwright:
+      defaultTimeout: 60000
+  processor: "flows.js"
 scenarios:
   - engine: playwright
-    flowFunction: "SearchAndCartFlow"
+    flowFunction: "WishListandCompareFlow"
     flow: []
