@@ -270,7 +270,7 @@ vusers.session_length:
 
 ![Allure](https://user-images.githubusercontent.com/84897709/220187844-c3f3f283-0125-4338-b2a2-6807100608df.gif)
 
-
-
+### HTML reporter
+![HTML](https://user-images.githubusercontent.com/84897709/220189103-9d8c50b1-6f8d-475f-8b0a-ceb0cbebc583.gif)
 
 
