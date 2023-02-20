@@ -13,7 +13,10 @@
     "e2e:mobile:head": "npx playwright test --project=MobileChrome --headed --grep @e2e",
     "search:chrome:head": "npx playwright test --project=chromium --headed --grep @search",
     "register:chrome:head": "npx playwright test --project=chromium --headed --grep @register",
-    "open_allure": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+    "open_allure": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "SNC-load": "artillery run --output report.json ./performance-load-testing/SearchAndCart.yml && artillery report report.json",
+    "WLNC-load": "artillery run --output report.json ./performance-load-testing/WishListandCompare.yml && artillery report report.json"
+
   },
   "keywords": [
     "playwright",
